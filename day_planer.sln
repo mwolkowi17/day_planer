@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day_planer", "day_planer.csproj", "{F5FD5D8A-DF96-4F8E-9D36-BE3D4353B253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5FD5D8A-DF96-4F8E-9D36-BE3D4353B253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FD5D8A-DF96-4F8E-9D36-BE3D4353B253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FD5D8A-DF96-4F8E-9D36-BE3D4353B253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FD5D8A-DF96-4F8E-9D36-BE3D4353B253}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C42683C2-A10B-4F1C-98F0-02C0EFA89C92}
+	EndGlobalSection
+EndGlobal

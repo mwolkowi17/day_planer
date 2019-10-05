@@ -1,0 +1,11 @@
+C:\Users\Marcin\source\repos\day_planer\bin\Debug\netcoreapp3.0\day_planer.exe
+C:\Users\Marcin\source\repos\day_planer\bin\Debug\netcoreapp3.0\day_planer.deps.json
+C:\Users\Marcin\source\repos\day_planer\bin\Debug\netcoreapp3.0\day_planer.runtimeconfig.json
+C:\Users\Marcin\source\repos\day_planer\bin\Debug\netcoreapp3.0\day_planer.runtimeconfig.dev.json
+C:\Users\Marcin\source\repos\day_planer\bin\Debug\netcoreapp3.0\day_planer.dll
+C:\Users\Marcin\source\repos\day_planer\bin\Debug\netcoreapp3.0\day_planer.pdb
+C:\Users\Marcin\source\repos\day_planer\obj\Debug\netcoreapp3.0\day_planer.csprojAssemblyReference.cache
+C:\Users\Marcin\source\repos\day_planer\obj\Debug\netcoreapp3.0\day_planer.AssemblyInfoInputs.cache
+C:\Users\Marcin\source\repos\day_planer\obj\Debug\netcoreapp3.0\day_planer.AssemblyInfo.cs
+C:\Users\Marcin\source\repos\day_planer\obj\Debug\netcoreapp3.0\day_planer.dll
+C:\Users\Marcin\source\repos\day_planer\obj\Debug\netcoreapp3.0\day_planer.pdb
