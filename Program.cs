@@ -38,16 +38,18 @@ namespace day_planer
 
 
 
-
+                ColorYellow();
                 Console.WriteLine("wyświetl wydarzenia wpisz: K");
                 Console.WriteLine("Jeśli chcesz wykasować jakieś wydarzenia wpisz: D");
                 Console.WriteLine("Jeśli chcesz zakończyć: E");
                 Console.WriteLine("dodaj kolejne-naciśnij ENTER");
                 String d = Console.ReadLine();
+                ColorWhite();
                 if (d == "K")
                 {
+                    ColorGreen();
                     Console.WriteLine("###########################Wydarzenia############################");
-
+                    ColorWhite();
                     for (int z = 0; z < titles.Length; z++)
                     {
                         if (titles[z] != null)
@@ -58,7 +60,9 @@ namespace day_planer
                             Console.WriteLine(" ");
                         }
                     }
+                    ColorGreen();
                     Console.WriteLine("##################################################################");
+                    ColorWhite();
                     Console.WriteLine("Jeśli chcesz zakończyć: E");
                     Console.WriteLine("dodaj kolejne-naciśnij ENTER");
                     string e = Console.ReadLine();
@@ -77,10 +81,12 @@ namespace day_planer
                         int del_id = Convert.ToInt32(del) - 1;
                         titles[del_id] = null;
                         events[del_id] = null;
+                        ColorYellow();
                         Console.WriteLine("Jeśli chcesz zakończyć: E");
                         Console.WriteLine("dodaj kolejne-wpisz:N");
                         Console.WriteLine("Chcesz skasować kolejne wydarzenie wciśnij: ENTER");
                         string e = Console.ReadLine();
+                        ColorWhite();
                         if (e == "E")
                         {
                             kas = false;
@@ -106,6 +112,20 @@ namespace day_planer
 
         }
         
+        static void ColorGreen()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+        }
+
+        static void ColorWhite()
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        static void ColorYellow()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+        }
 
     }
 }
